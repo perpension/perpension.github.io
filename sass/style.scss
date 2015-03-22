@@ -55,7 +55,7 @@
 			display: none;
 		}
 	}
-
+/*
 /* Wrapper */
 
 	@include vendor-keyframes('wrapper') {
@@ -72,7 +72,7 @@
 		top: 0;
 		width: 100%;
 	}
-
+*/
 /* BG */
 
 	#bg {
@@ -81,7 +81,7 @@
 		@include vendor-property('transform', 'translate3d(0,0,0)');
 
 		/* Set your background with this */
-		background: #c1d9df url("images/bg.jpg");
+		background: #348cb2 url('images/bg.jpg');
 
 		background-repeat: repeat-x;
 		height: 100%;
@@ -91,8 +91,8 @@
 		top: 0;
 	}
 
-	@include bg($bg-width * 2.0);
-
+	@include bg($bg-width * 1.5);
+/*
 /* Overlay */
 
 	@include vendor-keyframes('overlay') {
@@ -114,7 +114,7 @@
 		top: 0;
 		width: 100%;
 	}	
-
+*/
 /* Main */
 
 	#main {
